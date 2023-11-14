@@ -26,12 +26,34 @@ namespace Pokemons
             PokemonNegocio pokemonNegocio = new PokemonNegocio();
 
             pokemons = pokemonNegocio.listar();
-
             dgvPokemons.DataSource = pokemons;
+            dgvPokemons.Columns["UrlImagen"].Visible = false;
 
-            pbxPokemons.Load(pokemons[0].UrlImagen);
+            cambiarImagen(pokemons[0].UrlImagen);
 
 
         }
+
+        private void dgvPokemons_SelectionChanged(object sender, EventArgs e)
+        {
+            Pokemon selected = (Pokemon)dgvPokemons.CurrentRow.DataBoundItem;
+
+            cambiarImagen(selected.UrlImagen);
+
+        }
+
+
+        public void cambiarImagen(string imagen)
+        {
+            try
+            {
+                pbxPokemons.Load(imagen);
+            }
+            catch(Exception ex)
+            {
+                pbxPokemons.Load("https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg");
+            }
+        }
+
     }
 }

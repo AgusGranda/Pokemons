@@ -27,7 +27,7 @@ namespace Pokemons
                 conexion.ConnectionString = "server=.\\SQLEXPRESS ; database=POKEDEX_DB ; integrated security=true";
 
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "select Numero, Nombre, Descripcion,UrlImagen from POKEMONS";
+                comando.CommandText = "select Numero, Nombre, POKEMONS.Descripcion ,UrlImagen, Tipo.Descripcion Tipo , Debilidad.Descripcion Debilidad from POKEMONS inner join ELEMENTOS as Tipo on IdTipo = Tipo.Id  inner join ELEMENTOS as Debilidad on IdDebilidad = Debilidad.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -42,6 +42,10 @@ namespace Pokemons
                     aux.Nombre = (string)lector["Nombre"];
                     aux.Descripcion = (string)lector["Descripcion"];
                     aux.UrlImagen = (string)lector["UrlImagen"];
+                    aux.Tipo = new Elemento();
+                    aux.Tipo.Descripcion = (string)lector["Tipo"];
+                    aux.Debilidad = new Elemento();
+                    aux.Debilidad.Descripcion = (string)lector["Debilidad"];
 
 
                     lista.Add(aux);
@@ -53,7 +57,7 @@ namespace Pokemons
             }
             catch(Exception ex) 
             {
-                throw;
+                throw ex;
             }
             finally
             {
