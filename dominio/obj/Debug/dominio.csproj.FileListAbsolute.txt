@@ -1,0 +1,6 @@
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\dominio\bin\Debug\dominio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\dominio\bin\Debug\dominio.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\dominio\obj\Debug\dominio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\dominio\obj\Debug\dominio.pdb

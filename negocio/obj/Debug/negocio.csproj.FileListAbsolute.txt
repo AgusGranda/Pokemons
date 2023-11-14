@@ -1,0 +1,9 @@
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\bin\Debug\negocio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\bin\Debug\negocio.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\bin\Debug\dominio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\bin\Debug\dominio.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\obj\Debug\negocio.csproj.CopyComplete
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\obj\Debug\negocio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\negocio\obj\Debug\negocio.pdb

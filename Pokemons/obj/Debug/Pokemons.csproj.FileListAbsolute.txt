@@ -8,3 +8,8 @@ F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Poke
 F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.csproj.CoreCompileInputs.cache
 F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.exe
 F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\dominio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\negocio.dll
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\dominio.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\negocio.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.csproj.CopyComplete
