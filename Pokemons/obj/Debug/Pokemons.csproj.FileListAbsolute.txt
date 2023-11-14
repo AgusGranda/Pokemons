@@ -1,0 +1,10 @@
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\Pokemons.exe.config
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\Pokemons.exe
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\Pokemons.pdb
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.csproj.AssemblyReference.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.frmPokemons.resources
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.Properties.Resources.resources
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.csproj.GenerateResource.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.csproj.CoreCompileInputs.cache
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.exe
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.pdb
