@@ -13,3 +13,4 @@ F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\nego
 F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\dominio.pdb
 F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\bin\Debug\negocio.pdb
 F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.csproj.CopyComplete
+F:\Programacion\Proyectos Personales\C#\Practica-Ado.Net\Pokemons\obj\Debug\Pokemons.frmAgregar.resources

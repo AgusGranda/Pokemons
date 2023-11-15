@@ -30,6 +30,7 @@
         {
             this.dgvPokemons = new System.Windows.Forms.DataGridView();
             this.pbxPokemons = new System.Windows.Forms.PictureBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPokemons)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPokemons)).BeginInit();
             this.SuspendLayout();
@@ -39,24 +40,35 @@
             this.dgvPokemons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPokemons.Location = new System.Drawing.Point(12, 45);
             this.dgvPokemons.Name = "dgvPokemons";
-            this.dgvPokemons.Size = new System.Drawing.Size(620, 205);
+            this.dgvPokemons.Size = new System.Drawing.Size(580, 205);
             this.dgvPokemons.TabIndex = 0;
             this.dgvPokemons.SelectionChanged += new System.EventHandler(this.dgvPokemons_SelectionChanged);
             // 
             // pbxPokemons
             // 
-            this.pbxPokemons.Location = new System.Drawing.Point(686, 45);
+            this.pbxPokemons.Location = new System.Drawing.Point(633, 45);
             this.pbxPokemons.Name = "pbxPokemons";
             this.pbxPokemons.Size = new System.Drawing.Size(228, 205);
             this.pbxPokemons.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxPokemons.TabIndex = 1;
             this.pbxPokemons.TabStop = false;
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(12, 275);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 2;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
             // frmPokemons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 320);
+            this.ClientSize = new System.Drawing.Size(899, 332);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.pbxPokemons);
             this.Controls.Add(this.dgvPokemons);
             this.Name = "frmPokemons";
@@ -73,6 +85,7 @@
 
         private System.Windows.Forms.DataGridView dgvPokemons;
         private System.Windows.Forms.PictureBox pbxPokemons;
+        private System.Windows.Forms.Button btnAgregar;
     }
 }
 

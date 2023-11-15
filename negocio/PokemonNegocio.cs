@@ -69,5 +69,28 @@ namespace negocio
         }
 
 
+        public void agregar(Pokemon nuevo)
+        {
+            AccesoDatos data = new AccesoDatos();
+
+            try
+            {
+                data.consulta("");
+                data.ejecutarAccion();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                data.cerrarConexion();
+            }
+
+        }
+
+
     }
 }

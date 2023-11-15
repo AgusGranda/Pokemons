@@ -57,5 +57,10 @@ namespace Pokemons
             }
         }
 
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAgregar agregar = new frmAgregar();
+            agregar.ShowDialog();
+        }
     }
 }
